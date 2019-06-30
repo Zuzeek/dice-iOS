@@ -53,6 +53,9 @@ class ViewController: UIViewController {
             attempsFunction()
             successRateFunction()
         }
+        else {
+            messageLabel.text = "roll again"
+        }
     }
     
     func attempsFunction(){
